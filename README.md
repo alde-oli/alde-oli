@@ -1,104 +1,56 @@
 <!-- YoRHa personnel record -->
 <p align="center">
-  <img src="assets/banner.svg" alt="YoRHa // UNIT ALDE-OLI — BACKEND &amp; PLATFORM" width="100%">
+  <img src="assets/header.svg" width="100%" alt="YoRHa // UNIT ALDE-OLI — Backend &amp; Platform developer · Status: operational · Station: SyncAI · Training: 42 Lausanne · Core: Python, Django">
 </p>
 
-```
-▸ YoRHa // UNIT ALDE-OLI
-```
+<p align="center">
+  <img src="assets/unit.svg" width="100%" alt="UNIT DATA — Alexandre De Oliveira Maia, backend &amp; platform developer at SyncAI, Lausanne. Trained at 42 Lausanne. French native, fluent English. I build Python/Django tools that automate business decisions and take them to production reliably.">
+</p>
 
-| UNIT DATA | |
-|---|---|
-| Name | Alexandre De Oliveira Maia |
-| Role | Backend & Platform developer @ [SyncAI](https://syncai.ch) |
-| Location | Lausanne, Switzerland |
-| Training | 42 Lausanne (alumni) · 42 Pro Training Machine Learning |
-| Languages | French (native) · English (fluent) |
+<p align="center">
+  <img src="assets/missions.svg" width="100%" alt="MISSIONS — Athena (2024–now): repricing and product-integration platform for Digitec Galaxus sellers; Python/Django backend, move from Airflow to ~10 microservices on PostgreSQL queues, official marketplace API, analytics. Platform &amp; reliability (2026–now). Procurement automation (2026–now). Code is private.">
+  <img src="assets/missions-2.svg" width="100%" alt="Platform &amp; reliability: GitLab CI/CD with health-gated deploys, Linux servers, firewall, key rotation, Grafana alerting as code, verified PostgreSQL backups. Procurement automation: consulting for a Swiss technical-distribution SME — ERP order-proposal engine (Access, SQL Server, VBA) and automatic reading of supplier confirmations (PDF, OCR, generative AI), both in production.">
+</p>
 
-I build Python/Django tools that automate business decisions (setting a price, proposing a supplier order, reading an order confirmation) and I take them to production reliably: deployment pipeline, monitoring, backups.
-Since late 2024 I've worked at SyncAI on **Athena**, a repricing and product-integration platform for sellers on **Digitec Galaxus**. In 2026 I also took over the CI/CD, servers and alerting.
-How I work: I check before I ship. Changes get tested on copies, backups get restored before a switchover, and a deployment only goes out after a health check passes.
+<p align="center">
+  <img src="assets/equipment.svg" width="100%" alt="EQUIPMENT — Backend: Python, Django / DRF, PostgreSQL, SQL Server. Platform: Docker, GitLab CI/CD, Linux, Grafana · Prometheus · Loki. Foundations: C, C++, pytest, Git.">
+</p>
 
-## ▸ Stack
+<p align="center">
+  <img src="assets/sec-archive.svg" width="100%" alt="ARCHIVE — selected public records">
+</p>
 
-![Python](https://img.shields.io/badge/Python-4e4b42?style=flat-square)
-![Django](https://img.shields.io/badge/Django%20%2F%20DRF-4e4b42?style=flat-square)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4e4b42?style=flat-square)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-4e4b42?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-dad4bb?style=flat-square)
-![GitLab CI](https://img.shields.io/badge/GitLab%20CI-dad4bb?style=flat-square)
-![Linux](https://img.shields.io/badge/Linux-dad4bb?style=flat-square)
-![Grafana](https://img.shields.io/badge/Grafana%20%C2%B7%20Prometheus%20%C2%B7%20Loki-dad4bb?style=flat-square)
-![C / C++](https://img.shields.io/badge/C%20%2F%20C%2B%2B-b4af9a?style=flat-square)
-
-## ▸ Mission log
-
-Professional work. The code is private, so there are no links here.
-
-```
-[2024 ─ now]  ATHENA · SyncAI
-              Repricing & integration platform for Digitec Galaxus sellers.
-              ─ Python/Django backend: catalogue sync, competitor-offer tracking,
-                automatic pricing (margin, fees, VAT, shipping), publication of
-                prices, stock and product data.
-              ─ Designed the move from Airflow to ~10 Python microservices
-                driven by PostgreSQL queues.
-              ─ Migration to the marketplace's official API and feeds.
-              ─ Near-real-time sales and pricing analytics module.
-
-[2026 ─ now]  PLATFORM & RELIABILITY · SyncAI
-              ─ GitLab CI/CD: automated tests, continuous deployment to staging,
-                production rollout gated by a health check.
-              ─ Linux staging/production servers, firewall, key rotation.
-              ─ Grafana alerting as code; PostgreSQL backups restored and
-                verified before switchover.
-              ─ Test-suite overhaul, contribution conventions, docs, code review.
-
-[2026 ─ now]  PROCUREMENT AUTOMATION · consulting for a Swiss technical-distribution SME
-              ─ On-site audit, then improved the existing ERP's order-proposal
-                engine (Access, SQL Server, VBA) without a migration.
-              ─ Automatic reading of supplier confirmations (PDF, OCR, generative
-                AI), matched against orders. The buyer reviews the discrepancies
-                and approves them.
-              ─ Both are in production.
-```
-
-## ▸ Archive
-
-Selected public repositories.
-
-| Record | Summary | Stack |
-|---|---|---|
-| [ft_place_bot](https://github.com/alde-oli/ft_place_bot) | Bot that keeps a pixel-art image intact on 42 Lausanne's FTPlace board, repainting wrong pixels by priority. | Python · Poetry · CI |
-| [webserv](https://github.com/alde-oli/webserv) | HTTP/1.1 server from scratch: non-blocking `poll()` loop, virtual hosts, uploads, directory listing, CGI. | C++98 |
-| [ft_transcendance](https://github.com/alde-oli/ft_transcendance) | Multiplayer Pong platform with accounts, live chat, tournaments and an AI opponent. Team of 4. | Django · Channels · PostgreSQL · Docker |
-| [SuperMiniRT](https://github.com/alde-oli/SuperMiniRT) | Multithreaded CPU ray tracer with reflections, textures, bump maps and a free-flying camera. Team of 2. | C · MiniLibX · pthreads |
-| [minishell](https://github.com/alde-oli/minishell) | Bash-like shell: pipes, redirections, heredocs, `&&` / `\|\|` with parentheses, wildcards. Team of 2. | C · readline |
-| [Inception](https://github.com/alde-oli/Inception) | WordPress stack in Docker Compose: NGINX (TLS only), PHP-FPM and MariaDB, each built from Debian. | Docker · NGINX · MariaDB |
-| [upsi-jam-5](https://github.com/alde-oli/upsi-jam-5) | Game-jam platformer: split into a chained clone to swing and climb. Web build auto-deployed to itch.io. Team of 5. | Godot 4 · GitHub Actions |
+<p align="center">
+  <a href="https://github.com/alde-oli/ft_place_bot"><img src="assets/card-ft_place_bot.svg" width="49%" alt="ft_place_bot — keeps a pixel-art image intact on 42 Lausanne's FTPlace board. Python · Poetry · CI"></a>
+  <a href="https://github.com/alde-oli/webserv"><img src="assets/card-webserv.svg" width="49%" alt="webserv — HTTP/1.1 server from scratch in C++98"></a>
+  <a href="https://github.com/alde-oli/ft_transcendance"><img src="assets/card-ft_transcendance.svg" width="49%" alt="ft_transcendance — multiplayer Pong platform, team of 4. Django · Channels · PostgreSQL · Docker"></a>
+  <a href="https://github.com/alde-oli/SuperMiniRT"><img src="assets/card-SuperMiniRT.svg" width="49%" alt="SuperMiniRT — multithreaded CPU ray tracer in C, team of 2"></a>
+  <a href="https://github.com/alde-oli/minishell"><img src="assets/card-minishell.svg" width="49%" alt="minishell — Bash-like shell in C, team of 2"></a>
+  <a href="https://github.com/alde-oli/Inception"><img src="assets/card-Inception.svg" width="49%" alt="Inception — WordPress stack in Docker Compose"></a>
+  <a href="https://github.com/alde-oli/upsi-jam-5"><img src="assets/card-upsi-jam-5.svg" width="49%" alt="upsi-jam-5 — Godot 4 game-jam platformer, team of 5"></a>
+  <a href="https://github.com/alde-oli/dslr"><img src="assets/card-dslr.svg" width="49%" alt="dslr — logistic regression from scratch in Julia, team of 2"></a>
+</p>
 
 <details>
 <summary>▸ Further records</summary>
 
 | Record | Summary |
 |---|---|
-| [dslr](https://github.com/alde-oli/dslr) | One-vs-all logistic regression and data visualisation from scratch in Julia. |
-| [TLAPlus](https://github.com/alde-oli/TLAPlus) | Header-only C++ math library from scratch, with a SIMD `Vector` draft and AVX benchmarks. |
+| [TLAPlus](https://github.com/alde-oli/TLAPlus) | Header-only C++ math library from scratch, with a SIMD `Vector` draft. |
 | [ft_linear_regression](https://github.com/alde-oli/ft_linear_regression) | Linear regression with gradient descent, from scratch in Python. |
 | [ComputorV1](https://github.com/alde-oli/ComputorV1) | Polynomial equation parser and solver in C++, with complex roots. |
 | [swifty_companion](https://github.com/alde-oli/swifty_companion) | Flutter app showing a 42 student's level, skills and projects from the 42 API. |
-| [philosophers](https://github.com/alde-oli/philosophers) | Dining philosophers with threads and mutexes, and processes and semaphores as a bonus. |
+| [philosophers](https://github.com/alde-oli/philosophers) | Dining philosophers with threads and mutexes, processes and semaphores as a bonus. |
 | [pipex](https://github.com/alde-oli/pipex) | Shell pipeline clone: fork, pipe, dup2, execve, multi-pipe and here_doc. |
 | [push_swap](https://github.com/alde-oli/push_swap) | Sorting with two stacks and a minimal set of operations, plus a checker. |
 | [fdf](https://github.com/alde-oli/fdf) | 3D wireframe map renderer with MiniLibX. |
 | [cpp_piscine_p1](https://github.com/alde-oli/cpp_piscine_p1) · [p2](https://github.com/alde-oli/cpp_piscine_p2) | 42 C++ modules 00–09. |
-| [libft](https://github.com/alde-oli/libft) · [ft_printf](https://github.com/alde-oli/ft_printf) · [get_next_line](https://github.com/alde-oli/get_next_line) | First 42 C projects: libc re-implementation, printf, line reader. |
+| [libft](https://github.com/alde-oli/libft) · [ft_printf](https://github.com/alde-oli/ft_printf) · [get_next_line](https://github.com/alde-oli/get_next_line) | First 42 C projects. |
 
 </details>
 
-## ▸ Contact
+<p align="center">
+  <a href="https://www.linkedin.com/in/alexandre-deoliveiramaia"><img src="assets/comms.svg" width="100%" alt="POD 042 // COMMS — Proposal: open a channel on LinkedIn (linkedin.com/in/alexandre-deoliveiramaia)"></a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-alexandre--deoliveiramaia-4e4b42?style=flat-square)](https://www.linkedin.com/in/alexandre-deoliveiramaia)
-
----
-<sub>▸ FR : développeur backend & plateforme chez SyncAI à Lausanne, formé à 42 Lausanne. Contact via LinkedIn.</sub>
+<sub>Visual style is a fan homage to the menus of <i>NieR:Automata</i> (© Square Enix / PlatinumGames); no game assets are used and this profile is not affiliated with them. Palette based on <a href="https://github.com/metakirby5/yorha">metakirby5/yorha</a> (MIT). UI principles from the <a href="https://www.platinumgames.com/official-blog/article/9624">PlatinumGames blog</a>. Font: <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a> (SIL OFL 1.1), embedded. SVGs generated by <code>build.py</code>.</sub>
